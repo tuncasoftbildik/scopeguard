@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scopeguard"
+version = "0.1.0"
+description = "Refuse to test what you are not authorized to test: scope, time window and DNS proof checked before every command."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Tunca Bildik" }]
+keywords = ["penetration-testing", "security", "scope", "authorization", "dns"]
+
+[project.urls]
+Homepage = "https://github.com/tuncasoftbildik/scopeguard"
+
+[project.scripts]
+scopeguard = "scopeguard:main"
+
+[tool.setuptools]
+py-modules = ["scopeguard"]

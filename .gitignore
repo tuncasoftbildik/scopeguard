@@ -1,0 +1,9 @@
+# Engagement data never belongs in a repository.
+scope.toml
+scopeguard.log
+
+__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/
